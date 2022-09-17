@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <form id="frm1" action="javascript:void(0);">
+        No. Of Characters (Max limit: 9) : <input type="text"  value="7" maxlength="1" size="1">
+    </form>
+    <p id="heading">Generate a</p>
+    <p id="heading2">random password</p>
+    <p id="description">Never use an insecure password again, simply type the required password length and click on Generate password to create a Strong & Secure password.</p>
+    <button onclick="generate()">Generate passwords</button>
+    <hr>
+    <p class="right-side-header" title="Copy Text" id="pass1" onclick="copyElementText(this.id)"></p>
+    <p class="right-side-header" title="Copy Text" id="pass2" onclick="copyElementText(this.id)"></p>
+    <p id="info">Click on any password to copy.</p>
+    <p id="footer">Made with ❤ by Ansh</p>
+    <script src="index.js"></script>
+</body>
+</html>

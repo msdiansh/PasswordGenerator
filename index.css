@@ -1,0 +1,170 @@
+body {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 62px;
+    top: 64px;
+
+    background: #1F2937;
+}
+
+#heading {
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 25px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: white;
+}
+
+#heading2 {
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 68px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: #4ADF86;
+}
+
+#description {
+    position: absolute;
+    width: 500px;
+    height: 28px;
+    left: 52px;
+    top: 112px;
+    padding: 22px 0;
+    /* text-xl/leading-7/font-normal */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Medium grey */
+
+    color: #D5D4D8;
+}
+#frm1{
+    position: absolute;
+    left: 52px;
+    top: 300px;
+    color: white;
+}
+button{
+    cursor: pointer;
+    position: absolute;
+    width: 159px;
+    height: 38px;
+    top: 330px;
+    left: 52px;
+    border: none;
+    border-radius: 7px;
+
+    /* text-base/leading-6/font-medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* white */
+    background-color: #4ADF86;
+    color: white;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+hr {
+    position: absolute;
+    top: 400px;
+    left: 51px;
+    width: 525px;
+}
+
+#pass1 {
+    cursor: copy;
+    position: absolute;
+    top: 435px;
+    left: 63px;
+    width: 240px;
+    height: 40px;
+    background: #273549;
+    border-radius: 6px;
+    color: #5DEF92;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17spx;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+}
+
+#pass2 {
+    cursor: copy;
+    position: absolute;
+    top: 435px;
+    left: 327px;
+    width: 240px;
+    height: 40px;
+    background: #273549;
+    border-radius: 6px;
+    color: #5DEF92;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+}
+#info{
+    position: absolute;
+    top: 480px;
+    left: 69px;
+    color: aliceblue;
+    font-style: italic;
+}
+#footer {
+    position: absolute;
+    top: 700px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    color: bisque;
+}
